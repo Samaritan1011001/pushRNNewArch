@@ -7,11 +7,17 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "pod-install": "cd ios && RCT_NEW_ARCH_ENABLED=1 bundle exec pod install"
   },
   "dependencies": {
     "react": "18.3.1",
-    "react-native": "0.75.2"
+    "react-native": "0.75.2",
+    "@aws-amplify/react-native": "^1.1.2",
+    "@aws-amplify/rtn-push-notification": "^1.2.30",
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "aws-amplify": "^6.4.0",
+    "react-native-get-random-values": "^1.11.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
